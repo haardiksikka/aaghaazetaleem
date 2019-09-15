@@ -1,0 +1,63 @@
+/* lg */ 
+@media (min-width: 1200px) {
+    .margin-l{
+        margin-left:32px;
+    }
+    
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .margin-l{
+        margin-left:29px;
+    }
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+    .margin-t{
+        margin-top:21px;
+    }
+    .mobile-width{
+        width:315px !important;
+    }
+}
+
+/* xs */
+@media (max-width: 767px) {
+    .margin-t{
+        margin-top:21px;
+    }
+    .mobile-width{
+        width:315px !important;
+    }
+  
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+    .top-section{
+         background-attachment: initial;
+         padding-top: 79px;
+         padding-bottom:30px;
+        background-color: black; 
+    }
+    .donation-box{
+        padding:16px 43px 13px 10px;
+        margin:174px 0px 10px 20px;
+       
+    }
+    .margin-t{
+        margin-top:21px;
+    }
+    .mobile-width{
+        width:315px !important;
+    }
+ 
+
+}
+

@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+    <style>
+      .form-style{
+          margin:0;
+          padding:0;
+          font-family: 'Raleway';
+      }
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid topnav">
+             <div class="navbar-header">
+                     <button type="button" class="navbar-toggle dropbtn" data-toggle="collapse" data-target="#myNavbar">
+                         Menu                     
+                     </button>
+                     <a class="navbar-brand brand-name r-margin" href="index.html"><span style="color:white;">Aaghaaz</span>-<span style="color:#f7ca18; font-size:32px;">e</span>-<span style="color:white">Taleem</span></a>
+            </div>
+          
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="students.html">Our Students</a></li>
+                        <!--<li><a href="#">Team</a></li>    -->                     
+                    </ul>
+            </div>
+        </div>
+        
+  </nav>
+
+<div class="content para">
+    <h3 class="heading">Contact Us Today!</h3>
+    <form class="well form-horizontal" action="sendform.php" method="post"  id="contact_form">
+      <fieldset>
+    
+    <!-- Form Name -->
+                      
+    
+    <!-- Text input-->
+    
+        <div class="form-group">
+            <label class="col-md-4 control-label">First Name</label>  
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+                </div>
+            </div>
+        </div>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+          <label class="col-md-4 control-label" >Last Name</label> 
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+                </div>
+            </div>
+    </div>
+    
+    <!-- Text input-->
+           <div class="form-group">
+              <label class="col-md-4 control-label">E-Mail</label>  
+                  <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                          <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+                    </div>
+                </div>
+          </div>
+    
+    
+    <!-- Text input-->
+           
+    <div class="form-group">
+        <label class="col-md-4 control-label">Phone #</label>  
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                <input name="telephone" placeholder="91+(xxxxxxxxxx)" class="form-control" type="text">
+              </div>
+            </div>
+    </div>
+    
+    <!-- Text input-->
+          
+    <!-- <div class="form-group">
+      <label class="col-md-4 control-label">Address</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+      <input name="address" placeholder="Address" class="form-control" type="text">
+        </div>
+      </div>
+    </div> -->
+    
+    <!-- Text input-->
+     
+    <!-- <div class="form-group">
+      <label class="col-md-4 control-label">City</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+      <input name="city" placeholder="city" class="form-control"  type="text">
+        </div>
+      </div>
+    </div> -->
+       
+    <!-- Text input-->
+    
+    <!-- <div class="form-group">
+      <label class="col-md-4 control-label">Zip Code</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+      <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+        </div>
+    </div>
+    </div> -->
+    
+    
+    <!-- Text area -->
+      
+    <div class="form-group">
+      <label class="col-md-4 control-label">Comments/Query</label>
+        <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                <textarea class="form-control" name="comments" placeholder="Text here"></textarea>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Success message -->
+    <!--<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i>Thanks for contacting us, we will get back to you shortly.</div>
+    -->
+    <!-- Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label"></label>
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+          </div>
+    </div>
+    
+    </fieldset>
+    </form>
+
+</div>  
+  
+   <div style="bottom:0;">
+        <div class="footer">
+          <div class="row">
+              <div class="col-sm-6">
+                <p class="contact-us" style="font-size:32px;">Contact Us</p>
+                <p class="info"><i class="fa fa-phone "></i> : 9971806452</p>
+                <p class="info"><i class="fa fa-envelope-o"></i> : aaghaazetaleem@gmail.com</p>
+                <p class="info"><i class="fa fa-map-marker"></i> : Jamia Millia Islamia </p>
+              </div>
+              <div class="col-sm-6 " >
+                  <p class="social" style="font-size:32px">Social</p>
+                  <a href="https://www.instagram.com/aaghaaz_e_taleem/">
+                  <i class="fa fa-instagram" style="font-size:32px;" aria-hidden="true"></i></a>
+                  <a href="https://www.facebook.com/ChildRightsJMI/">
+                  <i class="fa fa-facebook-official" style="font-size:32px" aria-hidden="true"></i></a>
+
+
+              </div>
+            </div>
+      
+        </div>
+      
+  
+        <div class="footer2 text-center" style="background-color:#f7ca18">
+             <p class="content" style="margin:0px; padding-bottom:7px;">&copy 2017-18 Aaghaaze-E-Taleem. All rights reserved</p>
+         </div>  
+     </div>  
+
+  </div>
+   <script src="bootstrap/js/bootstrap.js"></script>     
+   <script src="jquery-3.2.1.js"></script> 
+   <script src="bootstrap/js/bootstrap.js"></script>     
+   <script src="jquery-3.2.1.js"></script> 
+</body>
+
+</html>

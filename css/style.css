@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.wrapper{
+    width:100%;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    background-color:#efefef;
+    
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding:0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #f9f5f5;
+}
+.topnav{
+    background-color:#0067b1;
+    background-image:linear-gradient(to right,#00b6de 0%,#0067b1 100%);
+   /* height: 80px*/
+}
+.dropbtn{
+    background-color: #ddd;
+}
+.top-section{
+    padding-top: 282px;
+    padding-bottom:30px;
+     background-image:url("../assets/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.top-heading{
+    color:white;
+    font:2.3em;
+    
+    padding:248px 0px 46px 34px;
+}
+.donation-box{
+    padding:16px 115px 13px 10px;
+    margin:174px 0px 10px 20px;
+    opacity: 1;
+    background-color: rgba(247,202,24,0.8);
+    ;
+    display: inline-block;
+    text-align: center;
+
+}
+.donate{
+    color:#ddd;
+    padding: 10px;
+    background-color: #0067b1;
+    text-decoration: none;
+    line-height: 48px;
+}
+.donation-box-heading{
+    font-size: large;
+}
+.para{
+    padding:16px;
+}
+.b-color{
+    padding:13px 14px 8px 13px;
+    background-color:white;
+    box-shadow:-5px 5px 5px #b1b7bc;
+}
+.heading{
+    font-family:'Raleway';
+    font-weight: bold;
+    color:#013243;
+}
+.content{
+    font-family:'Raleway';
+    line-height: 28px;
+    font-size:16px;
+    margin-top:31px;
+    text-align: justify;
+}
+.para h3{
+    position:relative;
+}
+.para h3:after {
+    height:5px;
+    width:38px;
+    content:'';
+    background:#F7CA18;
+    position: absolute;
+    bottom:-15px;
+    left:0;
+}
+/* .quote2{
+    background-image:url("../assets/quote1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:30px 8px; 
+
+} */
+.quote2{
+    background-image:url("../assets/quote2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+     padding:30px 8px; 
+
+}
+.insta-widget{
+    padding:16px;
+}
+.welcome{
+    color:white;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size:28px !important;
+}
+.footer{
+    background-color:#446CB3;
+    padding:19px 73px 19px 28px;
+    color:#ecf0f1;
+    font-size:17px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.footer a{
+    color: #efefef;
+}
+
+.footer2{
+    padding:16px 29px;
+    font-family: 'Raleway', sans-serif;
+}
